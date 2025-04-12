@@ -7,7 +7,7 @@ function ThemeSwitcher() {
 
     return(
         <select
-        className="fixed bottom-4 right-4 select select-bordered w-36"
+        className="fixed bottom-4 right-4 select select-bordered w-36 z-10"
         onChange={handleThemeChange}
       >
         <option value="light">Light</option>
